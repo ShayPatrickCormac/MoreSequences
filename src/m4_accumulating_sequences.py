@@ -409,7 +409,6 @@ def rectangles_from_circles(circles):
         centery = circles[k].center.y
         radius = circles[k].radius
         rect = rg.Rectangle(rg.Point(centerx-radius,centery-radius),rg.Point(centerx + radius,centery + centery + radius))
-    return rect
 
 
 
